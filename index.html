@@ -1747,6 +1747,7 @@ function enterApp() {
   document.getElementById('app').style.flexDirection = 'column';
   renderOpps();
   showToast('success', 'Welcome to KaribAfrika! Explore the latest opportunities.');
+  if (window.innerWidth <= 768) showMobileNav();
 }
 
 function showErr(id, show) {
@@ -1772,6 +1773,8 @@ function switchView(name) {
   document.getElementById('notif-dropdown').classList.add('hidden');
   // Scroll to top
   window.scrollTo(0, 0);
+  // Sync mobile nav
+  document.querySelectorAll(".mob-nav-item").forEach(i => i.classList.toggle("active", i.dataset.view === name));
 }
 
 // ════════════════════════════════════════════════════
@@ -2089,12 +2092,6 @@ function showMobileNav() {
   document.getElementById('mobile-nav').style.display = 'flex';
 }
 
-// Show mobile nav when app is entered on mobile
-const _origEnterApp = enterApp;
-function enterApp() {
-  _origEnterApp();
-  if (window.innerWidth <= 768) showMobileNav();
-}
 
 // Handle resize
 window.addEventListener('resize', () => {
@@ -2108,14 +2105,6 @@ window.addEventListener('resize', () => {
   }
 });
 
-// Sync mobile nav active state with switchView
-const _origSwitchView = switchView;
-window.switchView = function(name) {
-  _origSwitchView(name);
-  document.querySelectorAll('.mob-nav-item').forEach(i => {
-    i.classList.toggle('active', i.dataset.view === name);
-  });
-};
 
 let toastTimer;
 const toastIcons = {
