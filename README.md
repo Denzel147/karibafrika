@@ -3,7 +3,7 @@ Africa–Caribbean Digital Trade & Collaboration Platform
 
 A production-ready web platform connecting African and Caribbean entrepreneurs, SMEs, creatives, and investors for cross-regional trade, investment, and collaboration.
 
-Live Demo: https://YOUR-SITE.netlify.app
+Live Demo:(https://karibafrika.netlify.app/)
 Developer: Oladimeji Ayanleke
 Organisation: Honorary Consulate of Barbados in Rwanda
 Institution: African Leadership University (ALU)
@@ -56,7 +56,8 @@ FeatureDescriptionLanding pageHero section, feature cards, stats, footerUser Reg
 
 5. System Requirements Coverage
 Functional Requirements
-IDRequirementStatusFR1User Registration✅ CompleteFR2User Authentication✅ CompleteFR3Profile Management✅ CompleteFR4Opportunity Posting✅ CompleteFR5Opportunity Browsing & Search✅ CompleteFR6Messaging✅ CompleteFR7Event Listings✅ CompleteFR8Admin Moderation✅ CompleteFR9Analytics Dashboard✅ Complete
+IDRequirementStatus
+FR1User Registration✅ CompleteFR2User Authentication✅ CompleteFR3Profile Management✅ CompleteFR4Opportunity Posting✅ CompleteFR5Opportunity Browsing & Search✅ CompleteFR6Messaging✅ CompleteFR7Event Listings✅ CompleteFR8Admin Moderation✅ CompleteFR9Analytics Dashboard✅ Complete
 Non-Functional Requirements
 IDRequirementHow MetNFR1SecurityHTTPS on Netlify. Input validation on all forms.NFR2PerformanceSingle-file, zero dependencies, fast loadNFR3UsabilityInline errors, empty states, loading indicators, clear labelsNFR4ScalabilityModular code, ready for backend in Sprint 2NFR5ReliabilityNetlify CDN — global availabilityNFR6CompatibilityChrome, Edge, Firefox, Safari — desktop and mobileNFR7MaintainabilityCSS variables, modular JS functions, well-commented
 
