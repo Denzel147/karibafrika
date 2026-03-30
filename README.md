@@ -80,7 +80,7 @@ The prototype is self-contained in a single file for portability and ease of ass
 8. How to Run Locally
 Option 1 — Open directly (zero setup)
 bash# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/karibafrika.git
+git clone https://github.com/denzel147/karibafrika.git
 
 # 2. Navigate into the folder
 cd karibafrika
@@ -97,7 +97,7 @@ start index.html
 xdg-open index.html
 Option 2 — Local server with Node.js
 bash# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/karibafrika.git
+git clone https://github.com/denzel147/karibafrika.git
 cd karibafrika
 
 # 2. Install serve globally (one-time)
@@ -174,8 +174,5 @@ Sprint 3Production — email, file uploads, testing, scaling Planned
 Oladimeji Ayanleke
 African Leadership University (ALU) · Kigali, Rwanda · 2026
 
-LinkURLLive Site(https://karibafrika.netlify.app/)
-GitHub Repo[Replace with your GitHub URL]
-SRS Document (https://docs.google.com/document/d/1AXvp4KUXvWvBp6L_8ZBtKowOeTjzGv0Yw9Oq7VOg_hc/edit?usp=sharing)
-Video Presentation[Replace with your video link]
+
 
